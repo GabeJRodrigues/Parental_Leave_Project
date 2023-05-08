@@ -7,7 +7,6 @@ The data includes information on the company's name, industry, and crowdsourced 
 After uploading the dataset to a Microsoft SQL Server database, some data cleaning was performed using SQL to ensure the accuracy and relevance of the data.
 
 The main analysis questions for this project include:
-
 - Which industries offer the highest number of paid and unpaid parental leave weeks?
 - What is the average number of parental leave weeks offered by companies?
 - What percentage of companies offer parental leave?
@@ -15,11 +14,20 @@ The main analysis questions for this project include:
 
 The insights obtained from the analysis will be communicated through clear and impactful visualizations created using Power BI.
 
-## Data Import & SQL Data Cleaning
+## Data Import
 
 The [raw dataset](./data/parental_leave_raw.csv) from Maven was saved as an Excel Worksheet and loaded into Microsoft SQL Server using the 64-bit import wizard, and SQL was used to perform data cleaning to ensure the accuracy and relevance of the data in order to answer the key analysis questions.
 
-The SQL data cleaning included:
+## SQL Data Cleaning
 
-- Splitting Industry and SubIndustry into two columns. ([See the SQL queries used for this task](SQLqueries/SplittingIndustrySubIndustry.sql))
+Industry and SubIndustry were split into two columns. ([See the SQL queries used for this task](SQLqueries/SplittingIndustrySubIndustry.sql))
 
+Added an Industry to companies that had Industry as "N/A". ([SQL queries example](SQLqueries/AddingIndustriesToN-As.sql))
+
+To simplify the analysis of the dataset, the number of different industries was reduced by renaming or merging similar industries. The following changes were applied to the Industry names:
+- Changed MOO's Industry to Business Services, MOO was in Printing Industry;
+- Merged Technology, Information Services, Design, Computer & Network Security, Telecommunications, Engineering, Electronics, and Computer Software into "Technology" Industry;
+- Merged Healthcare, Pharmaceutical, Pharmacies & Drug Stores, and Wellness & Fitness into "Healthcare" Industry;
+- Merged Retail, Consumer Packaged Goods, and Wholesale into "Retail" Industry;
+- Merged Legal Services and Law Firm into "Legal Services" industry;
+- 
