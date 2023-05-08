@@ -18,3 +18,4 @@ The insights obtained from the analysis will be communicated through clear and i
 
 ## Dataset
 
+The dataset [data file](./data/parental_leave_raw.csv) was loaded into Microsoft SQL Server using the 64-bit import wizard, and SQL was used to perform data cleaning to ensure the accuracy and relevance of the data in order to answer the key analysis questions.
