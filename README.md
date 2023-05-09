@@ -16,9 +16,11 @@ The insights obtained from the analysis will be communicated through clear and i
 
 ## Data Import
 
-The [raw dataset](./data/parental_leave_raw.csv) from Maven was saved as an Excel Worksheet and loaded into Microsoft SQL Server using the 64-bit import wizard, and SQL was used to perform data cleaning to ensure the accuracy and relevance of the data in order to answer the key analysis questions.
+The [raw dataset](./data/parental_leave_raw.csv) from Maven was saved as an Excel Worksheet and loaded into Microsoft SQL Server as ParentalLeave table using the 64-bit Import and Export Wizard.
 
 ## SQL Data Cleaning
+
+The ParentalLeave table was subjected to data cleaning using SQL to ensure the accuracy and relevance of the data in order to answer the key analysis questions.
 
 Industry and SubIndustry were split into two columns. ([See the SQL queries used for this task](SQLqueries/SplittingIndustrySubIndustry.sql))
 
@@ -36,6 +38,14 @@ To simplify the analysis of the dataset, the number of different industries was 
 - Merged Hospitality and Leisure, Travel & Tourism into "Hospitality & Travel" Industry;
 - Merged Educational Services and Publishing into "Educational Services" Industry. ([SQL queries example for these merges](SQLqueries/IndustryMerging.sql))
 
+New columns were added to group companies based on the number of weeks of parental leave offered. Companies were categorized into groups such as 1-5 weeks, 6-10 weeks, 11-15 weeks, and so on. ([Check out these SQL queries example](SQLqueries/Grouping.sql))
+
 ## Power BI Dashboard
 
+Utilizing Power BI, a new dashboard was designed by connecting to the SQL Server database and importing the [ParentalLeave table data](data/ParentalLeave.xlsx).
+
+A range of charts and cards were created to address the primary analysis questions.
+
 ![](dashboard/MaternityPage.jpg)
+
+Correctly sorting the columns in the "Weeks of Paid Maternity Leave" and "Weeks of Unpaid Maternity Leave" charts involved the following steps: ([Sort a Column with a Custom Order in Power BI](https://www.youtube.com/watch?v=CpBy79AawVw))
