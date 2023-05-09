@@ -16,7 +16,7 @@ The insights obtained from the analysis will be communicated through clear and i
 
 ## Data Import
 
-The [raw dataset](./data/parental_leave_raw.csv) from Maven was saved as an Excel Worksheet and loaded into Microsoft SQL Server as ParentalLeave table using the 64-bit Import and Export Wizard.
+The [raw dataset](./data/parental_leave_raw.csv) from Maven was saved as an Excel Worksheet and loaded into Microsoft SQL Server as the "ParentalLeave" table using the 64-bit Import and Export Wizard.
 
 ## SQL Data Cleaning
 
@@ -42,10 +42,10 @@ New columns were added to group companies based on the number of weeks of parent
 
 ## Power BI Dashboard
 
-Utilizing Power BI, a new dashboard was designed by connecting to the SQL Server database and importing the [ParentalLeave table data](data/ParentalLeave.xlsx).
+Utilizing Power BI, a dashboard was created by connecting to the SQL Server database and importing the [ParentalLeave table data](data/ParentalLeave.xlsx).
 
 A range of charts and cards were created to address the primary analysis questions.
 
 ![](dashboard/MaternityPage.jpg)
 
-Correctly sorting the columns in the "Weeks of Paid Maternity Leave" and "Weeks of Unpaid Maternity Leave" charts involved the following steps: ([Sort a Column with a Custom Order in Power BI](https://www.youtube.com/watch?v=CpBy79AawVw))
+Correctly sorting the columns in the "Weeks of Paid Maternity Leave" and "Weeks of Unpaid Maternity Leave" charts involved the following steps: ([Sort a Column with a Custom Order in Power BI | Tutorial on Youtube](https://www.youtube.com/watch?v=CpBy79AawVw))
