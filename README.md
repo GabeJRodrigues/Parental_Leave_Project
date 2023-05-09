@@ -50,7 +50,7 @@ A range of charts and cards were created to address the primary analysis questio
 
 Correctly sorting the columns in the "Weeks of Paid Maternity Leave" and "Weeks of Unpaid Maternity Leave" charts involved the following steps: ([Sort a Column with a Custom Order in Power BI | Tutorial on Youtube](https://www.youtube.com/watch?v=CpBy79AawVw)) ([Link to the dataset after these changes were made](data/PBIparentalLeave.xlsx))
 
-Measures were added to calculate the percentage of companies that offer parental leave. ([Measure example](data/%CompaniesPaidMaternityLeave))
+Measures were added to calculate the percentage of companies that offer parental leave. ([Measure example](https://github.com/GabeJRodrigues/Parental_Leave_Project/blob/main/data/%25CompaniesPaidMaternityLeave))
 
 ## To-do
 
