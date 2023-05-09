@@ -1,0 +1,1 @@
+%CompaniesPaidMaternityLeave = (COUNTROWS(FILTER(ParentalLeave, [Paid Maternity Leave] > 0))/COUNTROWS(ParentalLeave))
