@@ -38,4 +38,4 @@ To simplify the analysis of the dataset, the number of different industries was 
 
 ## Power BI Dashboard
 
-![](ParentalLeaveDashboard.jpg)
+![](MaternityPage.jpg)
