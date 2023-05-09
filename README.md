@@ -55,4 +55,5 @@ Measures were added to calculate the percentage of companies that offer parental
 ## To-do
 
 Add the paternal leave page.
+
 Add a filter panel to the top right corner.
