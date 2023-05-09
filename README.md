@@ -53,3 +53,6 @@ Correctly sorting the columns in the "Weeks of Paid Maternity Leave" and "Weeks 
 Measures were added to calculate the percentage of companies that offer parental leave. ([Measure example](data/%CompaniesPaidMaternityLeave))
 
 ## To-do
+
+Add the paternal leave page.
+Add a filter panel to the top right corner.
