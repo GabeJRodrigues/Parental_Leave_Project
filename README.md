@@ -35,3 +35,6 @@ To simplify the analysis of the dataset, the number of different industries was 
 - Merged Utilities and Nonprofit into "Nonprofit" Industry;
 - Merged Hospitality and Leisure, Travel & Tourism into "Hospitality & Travel" Industry;
 - Merged Educational Services and Publishing into "Educational Services" Industry. ([SQL queries example for these merges](SQLqueries/IndustryMerging.sql))
+
+## Power BI Dashboard
+<embed src="ParentalLeaveDashboard.pdf" type="application/pdf" />
