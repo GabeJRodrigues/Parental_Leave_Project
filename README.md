@@ -29,5 +29,9 @@ To simplify the analysis of the dataset, the number of different industries was 
 - Merged Technology, Information Services, Design, Computer & Network Security, Telecommunications, Engineering, Electronics, and Computer Software into "Technology" Industry;
 - Merged Healthcare, Pharmaceutical, Pharmacies & Drug Stores, and Wellness & Fitness into "Healthcare" Industry;
 - Merged Retail, Consumer Packaged Goods, and Wholesale into "Retail" Industry;
-- Merged Legal Services and Law Firm into "Legal Services" industry;
-- 
+- Merged Legal Services and Law Firm into "Legal Services" Industry;
+- Merged Sporting Goods, Cosmetics, Retail and Textiles into "Retail" Industry;
+- Merged Transportation and Maritime into "Transportation" Industry;
+- Merged Utilities and Nonprofit into "Nonprofit" Industry;
+- Merged Hospitality and Leisure, Travel & Tourism into "Hospitality & Travel" Industry;
+- Merged Educational Services and Publishing into "Educational Services" Industry. ([SQL queries example for these merges](SQLqueries/IndustryMerging.sql))
